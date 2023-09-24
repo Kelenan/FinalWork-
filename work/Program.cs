@@ -25,3 +25,10 @@ void SecondArray(string[] array1, string[] array2)
 }
 
 
+void PrintArray(string[] inArray)
+    {
+        for (int i = 0; i < inArray.Length; i++)
+            Console.Write($"{inArray[i]} ");
+        
+        Console.WriteLine();
+    }
